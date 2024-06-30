@@ -1,0 +1,10 @@
+/* styles.css */
+
+.external {
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1px;
+}
