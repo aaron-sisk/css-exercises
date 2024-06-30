@@ -8,9 +8,9 @@
 
 
 .first {
-    background-color: hsl(0, 0, 0);
+    background-color: hsl(0, 0%, 0%);
     color: rgb(255, 255, 255);
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .second {
