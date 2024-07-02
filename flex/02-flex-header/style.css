@@ -1,3 +1,10 @@
+.header,
+.logo,
+ul,
+a {
+  display: flex;
+}
+
 .header  {
   font-family: monospace;
   background: papayawhip;
