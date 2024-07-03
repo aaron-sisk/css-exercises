@@ -43,3 +43,29 @@ body {
   font-weight: 800;
   font-size: 20px;
 }
+
+.content {
+  display: flex;
+}
+
+.sidebar{
+  display: flex;
+  flex-shrink: 0;
+}
+
+.card-container {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  list-style: none;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+}
