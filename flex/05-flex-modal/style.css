@@ -36,9 +36,8 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 10px;
-  flex-shrink: 0;
 }
+
 
 .close-button {
   background: #eee;
@@ -53,6 +52,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  display: inline-flex;
 }
 
 button {
@@ -75,3 +75,12 @@ button.cancel {
 
 /* solution */
 
+.icon {
+  flex-shrink: 0;
+  margin: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
